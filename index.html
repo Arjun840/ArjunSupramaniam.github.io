@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test1 Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="#home" id="navbar__logo"> Arjun Supramaniam</a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="#home" class="navbar__links" id="home-page">About</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#skills" class="navbar__links" id="skills-page">Skills</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#projects" class="navbar__links" id="projects-page">Projects</a>
+                </li>
+                <li class="navbar__btn">
+                    <a href="#connect" class="button" id="follow">Connect/Follow</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+  <!-- Hero Section -->
+<div class="hero" id="home">
+    <div class="hero__container">
+        <h1 class="hero__heading">Hi I'm Arjun, a Full-Stack <span>Developer</span></h1>
+        <p class="hero__description">Currently a rising sophomore studying Informatics at the University of Washington Seattle. This portfolio
+            is a glimpse into some of of the work I've done.
+        </p>
+        <button class="main_btn"><a href="#skills">Learn More</a></button>
+    </div>
+</div>
+
+<!-- Skills Section -->
+<section id="skills" class="skills">
+    <h1 class="skill__heading"><span>Skills</span></h1>
+    <div class="skills__container">
+    <div class="skills__card">
+        <img src="images/java.png" alt="Java">
+        <p>Java</p>
+    </div>
+    <div class="skills__card">
+        <img src="images/python.png" alt="Python">
+        <p>Python</p>
+    </div>  
+    <div class="skills__card">
+        <img src="images/database.png" alt="SQL">
+        <p>SQL</p>
+    </div>
+    <div class="skills__card">
+        <img src="images/r.png" alt="R">
+        <p>R</p>
+    </div>
+    <div class="skills__card">
+        <img src="images/js.png" alt="JS">
+        <p>JavaScript</p>
+    </div>
+    <div class="skills__card">
+        <img src="images/physics.png" alt="React">
+        <p>React</p>
+    </div>
+    <div class="skills__card">
+        <img src="images/html-5.png" alt="HTML">
+        <p>HTML</p>
+    </div>
+    <div class="skills__card">
+        <img src="images/css-3.png" alt="CSS">
+        <p>CSS</p>
+    </div>            
+</div>
+</section>
+
+<section id="projects" class="projects">
+    <h2 class="projects__heading">Highlighted Projects</h2>
+    <p class="projects__description">The projects listed below are some of my best pieces of creative work so far! Through doing these projects, I've come to learn that the complexities of coding extend further than just what's taught in the classrom. Trying to build something from scratch is a whole new skill set and I hope to improve on it over time. </p>
+    
+    <div class="projects__container">
+        <div class="project__card">
+            <img src="images/Screenshot 2024-09-09 at 1.41.26 AM.png" alt="Project 1 Image" class="project__image">
+            <h3 class="project__title">Big Brother AI</h3>
+            <p class="project__description">AI mentor and role model for adolescents built using Groq API, React, Next.js, NextAuth.js, and Cartesia AI</p>
+            <a href="https://devpost.com/software/big-brother-ai" class="project__link" target="_blank">View on Devpost</a>
+            <div class="project__tags">
+                <span>#React</span>
+                <span>#JavaScript</span>
+                <span>#Groq API</span>
+            </div>
+        </div>
+        <div class="project__card">
+            <img src="images/Screenshot 2024-09-09 at 1.40.20 AM.png" alt= "Project 2 Image" class="project__image">
+            <h3 class="project__title">Caffeine Consumption of Students</h3>
+            <p class="project__description">A research study with data manipulation and cleaning done through R on the caffeine consumption habits of college students</p>
+            <a href="https://github.com/Arjun840/Final-Project-Caffeine-Consumption-of-Students" class="project__link" target="_blank">View on GitHub</a>
+            <div class="project__tags">
+                <span>#R</span>
+            </div>
+        </div>
+        <!-- Add more project cards as needed -->
+    </div>
+</section>
+
+<section id="connect" class="connect">
+    <h1 class="connect__heading"><span>Connect/Follow</span></h1>
+    <div class="connect__container">
+        <a href="https://www.linkedin.com/in/arjun-supramaniam-955830293" target="_blank" class="connect__card-link">
+            <div class="connect__card">
+                <img src="images/linkedin.png" alt="Linkedin">
+                <p>Linkedin</p>
+            </div>
+        </a>
+        <a href="https://github.com/Arjun840" target="_blank" class="connect__card-link">
+            <div class="connect__card">
+                <img src="images/github-sign.png" alt="GitHub">
+                <p>GitHub</p>
+            </div>
+        </a>
+</section>
+
+</section>
+<script src="app.js"></script>
+</body>
+</html>
